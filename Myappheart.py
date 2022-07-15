@@ -7,8 +7,8 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from PIL import Image
 null=None
+from PIL import Image
 def load_images(file_name):
     img = Image.open(file_name)
     return st.image(img,width=300)
@@ -18,7 +18,7 @@ load_images(img)
 st.header("Heart Disease Checker app")
 st.write("This app is intended to check wheather you are suffering from any heart disease or not")
 st.write("score 0 means you are not suffering from any heart disease and score of 1 or 2 means you are suffering ")
-st.text("Created by Mr.Harshit Harsh")
+
 
 
 # Input bar 1
@@ -49,9 +49,5 @@ if st.button("Submit"):
             st.text("Consult a Doctor")
     else:
         st.text(f"Please follow instructions")
+st.text("Created by Mr.Harshit Harsh")
    
-           
- 
-        
-    
-
