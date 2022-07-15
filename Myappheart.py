@@ -11,7 +11,7 @@ null=None
 def load_images(file_name):
     img = Image.open(file_name)
     return st.image(img,width=300)
-img='appDiabetes.JPG'
+img='heartapp.jpg'
 load_images(img)
 # Title
 st.header("Heart Disease Checker app")
