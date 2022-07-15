@@ -39,7 +39,7 @@ if st.button("Submit"):
 
     # Output prediction
         st.text(f"This instance is a {prediction}")
-        if (prediction == 1 or 2):
+        if (prediction == 1 ):
             st.text("Consult a Doctor")
     else:
         st.text(f"Please follow instructions")
