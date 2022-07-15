@@ -7,6 +7,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+from PIL import Image
 null=None
 def load_images(file_name):
     img = Image.open(file_name)
