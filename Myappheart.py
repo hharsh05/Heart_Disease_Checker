@@ -47,6 +47,8 @@ if st.button("Submit"):
         st.text(f"This instance is a {prediction}")
         if (prediction == 1 ):
             st.text("Consult a Doctor")
+        else:
+            st.text("You are not suffering from heart disease")
     else:
         st.text(f"Please follow instructions")
 st.text("Created by Mr.Harshit Harsh")
