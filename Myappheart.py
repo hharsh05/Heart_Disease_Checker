@@ -13,7 +13,7 @@ import SafeLoader
 null=None
 from PIL import Image
 with open('config.yaml') as file:
-    config = yaml.load(file, Loader=SafeLoader)
+    config = yaml.load(file)
 
 authenticator = Authenticate(
     config['credentials'],
