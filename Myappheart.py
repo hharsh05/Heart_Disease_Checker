@@ -9,13 +9,12 @@ import streamlit_authenticator as stauth
 import pandas as pd
 import joblib
 import yaml
-from rest_framework import authentication
 null=None
 from PIL import Image
 with open('config.yaml') as file:
     config = yaml.safe_load(file)
 
-authenticator = authentication(
+authenticator = stauth.authenticate(
     config['credentials'],
     config['cookie']['name'],
     config['cookie']['key'],
