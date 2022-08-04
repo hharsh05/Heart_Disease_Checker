@@ -12,7 +12,7 @@ import yaml
 null=None
 from PIL import Image
 with open('config.yaml') as file:
-    config = yaml.load(file)
+    config = yaml.safe_load(file)
 
 authenticator = Authenticate(
     config['credentials'],
