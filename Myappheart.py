@@ -8,7 +8,7 @@ import streamlit as st
 import streamlit_authenticator as stauth
 import pandas as pd
 import joblib
-import YAML as yaml
+import yaml
 null=None
 from PIL import Image
 with open('config.yaml') as file:
