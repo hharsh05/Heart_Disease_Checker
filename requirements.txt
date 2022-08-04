@@ -2,4 +2,4 @@ streamlit-authenticator == 0.2.1
 streamlit == 1.1.0
 joblib == 1.1.0
 Scikit-learn  == 1.1
-YAML == 1.1
+
