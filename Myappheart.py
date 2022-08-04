@@ -9,7 +9,6 @@ import streamlit_authenticator as stauth
 import pandas as pd
 import joblib
 import yaml
-import SafeLoader
 null=None
 from PIL import Image
 with open('config.yaml') as file:
