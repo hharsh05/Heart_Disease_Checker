@@ -14,7 +14,7 @@ from PIL import Image
 with open('config.yaml') as file:
     config = yaml.safe_load(file)
 
-authenticator = stauth.authenticate(
+authenticator = stauth.Authenticate(
     config['credentials'],
     config['cookie']['name'],
     config['cookie']['key'],
